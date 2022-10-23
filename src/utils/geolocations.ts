@@ -8,7 +8,7 @@ export function getCurrentPosition(
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       }),
-      (error) => reject(error)
+      (error) => reject(error),
       options
     );
   });
